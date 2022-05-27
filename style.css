@@ -1,0 +1,50 @@
+body{
+    background-color: #02192c;
+}
+
+table{
+    position: relative;
+    top: 50px;
+    border: 2px dashed white;
+}
+
+table th, table td{
+    color: white;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+button:active{
+    background-color: grey;
+    transition-duration: 0.2s;
+}
+
+.boss{
+    margin-left: 40%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.boss button{
+    padding: 8px;
+    display: inline;
+    margin: 0;
+}
+
+label{
+    display: block;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
